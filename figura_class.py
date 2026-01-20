@@ -19,7 +19,7 @@ class Figura:
         if self.pos_y == 0 or self.pos_y == y_max:
             self.vy = self.vy * -1 
 
-    def dibujar_rectagulo(self, sourface):
+    def dibujar_rectangulo(self, sourface):
         pg.draw.rect( sourface, self.color, (self.pos_x,self.pos_y,self.w,self.h) )
 
     def dibujar_circulo(self, sourface):
